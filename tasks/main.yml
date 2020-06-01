@@ -27,5 +27,4 @@
     group: root
     mode: 0644
   notify: 
-    become: yes
     - restart kibana
